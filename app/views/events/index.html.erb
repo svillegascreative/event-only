@@ -1,0 +1,4 @@
+<h1>Events at <%= @location.name %></h1>
+<%= link_to image_tag(@location.image, class: "location"), @location %>
+
+<%= render @events, location: @location %>
